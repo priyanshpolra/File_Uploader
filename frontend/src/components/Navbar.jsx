@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-600 text-white shadow-md">
+    <nav className="bg-gradient-to-r from-gray-600 to-gray-900 text-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo / Title */}
@@ -18,22 +18,6 @@ const Navbar = () => {
                 className="hover:bg-blue-500 px-3 py-2 rounded-md transition-colors duration-200"
               >
                 Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="/upload"
-                className="hover:bg-blue-500 px-3 py-2 rounded-md transition-colors duration-200"
-              >
-                Upload
-              </a>
-            </li>
-            <li>
-              <a
-                href="/files"
-                className="hover:bg-blue-500 px-3 py-2 rounded-md transition-colors duration-200"
-              >
-                Files
               </a>
             </li>
           </ul>

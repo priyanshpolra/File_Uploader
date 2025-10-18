@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/files'; // Update with your backend URL
+const API_URL = 'http://localhost:5001/api/files';
 
 export const uploadFile = async (file) => {
     const formData = new FormData();
