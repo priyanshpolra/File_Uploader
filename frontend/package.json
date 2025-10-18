@@ -29,6 +29,9 @@
     "tailwindcss": "^3.3.5"
   },
   "homepage": "http://yourdomain.com",
+  "engines": {
+  "node": "20.x"
+},
   "license": "MIT",
   "browserslist": {
     "production": [
