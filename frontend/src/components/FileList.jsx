@@ -81,7 +81,6 @@ const FileList = () => {
                                     <div className="text-sm text-gray-400">
                                         <p>Size: {(file.size / 1024 / 1024).toFixed(2)} MB</p>
                                         <p>Type: {file.mimetype}</p>
-                                        <p>Uploaded: {new Date(file.uploadedAt).toLocaleDateString()}</p>
                                     </div>
                                 </div>
                                 <div className="flex flex-col space-y-2 items-start">
