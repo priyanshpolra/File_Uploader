@@ -34,7 +34,7 @@ const FileList = () => {
         try {
             await navigator.clipboard.writeText(fileUrl);
             setCopiedFileId(fileId);
-            setTimeout(() => setCopiedFileId(null), 2000); // Reset after 2 seconds
+            setTimeout(() => setCopiedFileId(null), 2000);
         } catch (err) {
             console.error('Error copying link:', err);
         }

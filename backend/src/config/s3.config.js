@@ -7,7 +7,6 @@ if (!process.env.AWS_ACCESS_KEY_ID || !process.env.AWS_SECRET_ACCESS_KEY || !pro
     throw new Error('Missing required AWS credentials in environment variables');
 }
 
-// Initialize S3 client
 const s3Client = new S3Client({
     region: process.env.AWS_REGION,
     credentials: {

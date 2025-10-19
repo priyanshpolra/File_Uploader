@@ -1,5 +1,3 @@
-Sure, here's the content for the file: /mern-file-uploader/mern-file-uploader/backend/src/app.js
-
 const express = require('express');
 const mongoose = require('mongoose');
 const fileRoutes = require('./routes/fileRoutes');
