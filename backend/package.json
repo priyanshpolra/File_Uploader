@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A simple file uploader application using MERN stack with cloud storage integration.",
   "main": "src/server.js",
+    "engines": {
+    "node": "18.x",
+    "npm": "10.x"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
