@@ -1,7 +1,5 @@
 # Progress File Uploader
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 A **File uploader** application that allows users to upload files (images, PDFs, documents) and store them securely in **AWS S3**. File metadata is saved in **MongoDB**.
 
 ---
@@ -198,7 +196,3 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-✅ **Next Step:**
-You need to take screenshots of your app: open app, select file, upload file, view uploaded files, and MongoDB entries. Save them in a `screenshots` folder and replace the placeholder links in the README.
-
----
